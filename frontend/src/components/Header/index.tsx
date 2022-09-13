@@ -1,14 +1,14 @@
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/logo.svg';
 
-import './styles.css'
+import './styles.css';
 
 function Header() {
   return (
     <div className="dsmeta-logo-container">
       <img src={logo} alt="logo da loja DSMeta" />
-      <h1>DSMeta</h1> 
+      <h1>DSMeta</h1>
       <p>
-        Desenvolvido por
+        Desenvolvido por{' '}
         <a href="https://www.linkedin.com/in/adriel-ryan/">Adriel Ryan</a>
       </p>
     </div>
